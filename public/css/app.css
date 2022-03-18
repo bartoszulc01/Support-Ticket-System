@@ -19457,10 +19457,10 @@ strong {
 
 .home--banner {
   padding: 150px 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(64, 104, 130, 0.4)), to(rgba(64, 104, 130, 0.4))), url("/public/images/home--banner.jpg");
-  background: -webkit-linear-gradient(rgba(64, 104, 130, 0.4), rgba(64, 104, 130, 0.4)), url("/public/images/home--banner.jpg");
-  background: -o-linear-gradient(rgba(64, 104, 130, 0.4), rgba(64, 104, 130, 0.4)), url("/public/images/home--banner.jpg");
-  background: linear-gradient(rgba(64, 104, 130, 0.4), rgba(64, 104, 130, 0.4)), url("/public/images/home--banner.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(64, 104, 130, 0.4)), to(rgba(64, 104, 130, 0.4))), url("../images/home--banner.jpg");
+  background: -webkit-linear-gradient(rgba(64, 104, 130, 0.4), rgba(64, 104, 130, 0.4)), url("../images/home--banner.jpg");
+  background: -o-linear-gradient(rgba(64, 104, 130, 0.4), rgba(64, 104, 130, 0.4)), url("../images/home--banner.jpg");
+  background: linear-gradient(rgba(64, 104, 130, 0.4), rgba(64, 104, 130, 0.4)), url("../images/home--banner.jpg");
   background-size: cover; }
 
 .home--faq__home h3 {
