@@ -1,0 +1,56 @@
+@import "settings/variables";
+
+// @import "settings/fonts";
+$fa-font-path: "../node_modules/@fortawesome/fontawesome-free/webfonts" !default;
+
+@import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/regular";
+
+// bootstrap
+@import "settings/bootstrap-grid";
+@import "../node_modules/bootstrap/scss/bootstrap-reboot";
+@import "../node_modules/bootstrap/scss/dropdown";
+@import "../node_modules/bootstrap/scss/forms";
+@import "../node_modules/bootstrap/scss/nav";
+
+// @import "../node_modules/bootstrap/scss/progress";
+// @import "../node_modules/bootstrap/scss/card";
+@import "../node_modules/bootstrap/scss/transitions";
+
+@import "settings/bootstrap-override";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// js plugins
+@import "../node_modules/slick-carousel/slick/slick.scss";
+
+// mixins
+
+@import "generic/mixins";
+
+// Fonts
+// =================================================
+// @import "fonts/fonts";
+
+// Generic
+// =================================================
+@import "generic/general";
+@import "generic/typography";
+@import "generic/buttons";
+@import "generic/spacing";
+
+// Partials
+// =================================================
+@import "partials/header";
+@import "partials/footer";
+
+// Components
+// =================================================
+
+// Pages
+// =================================================
+@import "pages/home.scss";
+
+// AOS
+// =================================================
+@import "../node_modules/aos/src/sass/aos.scss";
+@import "../node_modules/magnific-popup/src/css/main.scss";

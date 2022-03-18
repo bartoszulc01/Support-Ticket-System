@@ -1,0 +1,25 @@
+@mixin fontSize($size) {
+  $root: 16;
+
+  font-size: $size/$root + rem;
+}
+
+@mixin lineHeight($size) {
+  $root: 16;
+
+  line-height: $size/$root + rem;
+}
+
+@mixin p-style {
+  font-family: $primaryFont;
+  font-weight: 400;
+  color: $fontColor;
+
+  @include fontSize(16);
+  @include lineHeight(29);
+
+  @include media-breakpoint-down(sm) {
+    @include fontSize(15);
+    @include lineHeight(22.5);
+  }
+}

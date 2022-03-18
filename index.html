@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Support Ticket System</title>
+      <!-- google fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="public/css/app.css">
+   </head>
+   <body>
+      <nav class="navbar navbar-main navbar-hover navbar-expand-lg navbar-light bg-theme-white">
+         <div class="container">
+            <a class="navbar-brand" href="/"><img class="img-fluid" src="public/images/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+               class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav ml-auto">
+                  <li class="nav-item"><a class="nav-link" href="">Baza wiedzy</a></li>
+                  <li class="nav-item"><a class="nav-link" href="">FAQ</a></li>
+                  <li class="nav-item"><a class="nav-link nav-button filled white" href="">Prześlij zgłoszenie</a></li>
+                  <li class="nav-item"><a class="nav-link nav-button bordered" href="">Zaloguj się</a></li>
+                  <!-- Dropdown -->
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbardroplanguage" data-toggle="dropdown">PL</a>
+                     <div class="dropdown-menu slideDownIn">
+                        <a class="dropdown-item" href="#">PL</a>
+                        <a class="dropdown-item" href="#">EN</a>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <main>
+         <section class="home--banner">
+            <div class="container">
+               <div class="row justify-content-center">
+                  <div class="col-12">
+                     <div class="text-center">
+                        <h1 class="white mb20">System szybkiej pomocy technicznej </h1>
+                        <p class="lead white mb50">Przeznaczone do obsługi zgłoszeń serwisowych i baz wiedzy</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-8 mx-auto">
+                     <div class="search-holder mt20 mb20">
+                        <form class="search-form" id="mainSearch" method="GET" action="search">
+                           <div class="input-group input-group-lg">
+                              <input class="form-control" type="text" id="InputSearch" placeholder="Szukaj...">
+                              <div class="input-group-append">
+                                 <button class="btn btn-light btn-flat" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                              </div>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="home--faq__home pt50 pb50">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-12">
+                     <div class="text-center">
+                        <h2>Sprawdź popularne tematy</h2>
+                        <p>Dołożyliśmy wszelkich starań, aby poruszyć wszystkie tematy związane z tym produktem. Każda sekcja ma numer, który oznacza liczbę tematów w danej kategorii.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="row mt40">
+                <div class="col-xl-4 col-lg-4 col-md-12">
+                    <div class="archives-holder mt20 mb20">
+                       <div class="archives-title mb10">
+                          <h3>Wprowadzenie</h3>
+                       </div>
+                       <div class="archives-items">
+                          <ul>
+                             <li><a href="">Co to jest jp&b?</a></li>
+                             <li><a href="">Cechy jp&b</a></li>
+                             <li><a href="">Dlaczego potrzebujesz jp&b? </a></li>
+                             <li><a href="">Ile kosztuje jp&b? </a></li>
+                             <li><a href="">Założyciele jp&b </a></li>
+                          </ul>
+                       </div>
+                       <div class="archives-footer mt20"><a class="btn btn-secondary" href="">Eksploruj wszystko (11)</a></div>
+                    </div>
+                 </div>
+                <div class="col-xl-4 col-lg-4 col-md-12">
+                   <div class="archives-holder mt20 mb20">
+                      <div class="archives-title mb10">
+                         <h3>Uwierzytelnianie</h3>
+                      </div>
+                      <div class="archives-items">
+                         <ul>
+                            <li><a href="">Logowanie użytkownika </a></li>
+                            <li><a href="">Rejestracja użytkownika</a></li>
+                            <li><a href="">Aktywacja konta użytkownika </a></li>
+                            <li><a href="">Odzyskaj hasło użytkownika </a></li>
+                            <li><a href="">Jak zmienić hasło? </a></li>
+                         </ul>
+                      </div>
+                      <div class="archives-footer mt20"><a class="btn btn-secondary" href="">Eksploruj wszystko (5)</a></div>
+                   </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-12">
+                   <div class="archives-holder mt20 mb20">
+                      <div class="archives-title mb10">
+                         <h3>Instalacja</h3>
+                      </div>
+                      <div class="archives-items">
+                         <ul>
+                            <li><a href="">Wymagania systemowe </a></li>
+                            <li><a href="">Rozpakowywanie pakietu </a></li>
+                            <li><a href="">Licencja na aplikację i kod zakupu </a></li>
+                            <li><a href="">Konfiguracje bazy danych </a></li>
+                            <li><a href="">Wgrywanie i hostowanie aplikacji </a></li>
+                         </ul>
+                      </div>
+                      <div class="archives-footer mt20"><a class="btn btn-secondary" href="">Eksploruj wszystko (5)</a></div>
+                   </div>
+                </div>
+             </div>
+            </div>
+         </section>
+         <section class="home--register-now">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-12 text-center">
+                     <h2 class="white">Szukasz pomocy? Dołącz do społeczności</h2>
+                     <p class="lead white mb30">Nie możesz znaleźć tego, czego szukasz? Dołącz do naszego systemu wsparcia i pozwól nam sobie pomóc.</p>
+                     <a href="/" class="btn btn-primary">Zarejestruj się</a>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+      <footer class="main-footer pt20 pb20">
+         <div class="container">
+            <div class="row justify-content-lg-between">
+               <div class="col-xl-4 col-lg-4 col-md-12">
+                  <div class="copyright-holder mt5 mb5">
+                     <p>© 2022 Support Ticket System</p>
+                  </div>
+               </div>
+               <div class="col-xl-4 col-lg-4 col-md-12">
+                  <div class="link-holder mt5 mb5">
+                     <ul class="p-0 no-list d-flex">
+                        <li class="pr-3"><a href="/">Baza wiedzy</a></li>
+                        <li class="px-3"><a href="/">FAQ</a></li>
+                        <li class="px-3"><a href="/">Kontakt</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+   </body>
+   <script src="public/js/app.js"></script>
+</html>

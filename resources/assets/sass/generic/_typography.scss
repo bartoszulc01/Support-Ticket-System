@@ -1,0 +1,111 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+  font-family: $primaryFont;
+}
+
+.header-backgrounds {
+  h1,
+  .h1,
+  h1 span {
+    @include fontSize(60);
+    @include lineHeight(65);
+
+    @include media-breakpoint-down(lg) {
+      @include fontSize(40);
+      @include lineHeight(49.4);
+    }
+
+    @include media-breakpoint-down(sm) {
+      @include fontSize(26);
+      @include lineHeight(32);
+    }
+  }
+}
+
+h2,
+.h2,
+h2 span,
+.h2 span {
+  @include fontSize(35);
+  @include lineHeight(44);
+
+  @include media-breakpoint-down(sm) {
+    @include fontSize(26);
+    @include lineHeight(32);
+  }
+}
+
+h3,
+.h3,
+h3 span,
+.h3 span {
+  @include fontSize(30);
+  @include lineHeight(40);
+
+  @include media-breakpoint-down(md) {
+    @include fontSize(19);
+    @include lineHeight(28.5);
+  }
+}
+
+h4,
+.h4,
+.h4 span {
+  @include fontSize(24);
+  @include lineHeight(30);
+}
+
+h5,
+.h5 {
+  @include fontSize(14);
+  @include lineHeight(35);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+
+  &:hover {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+p,
+.p,
+ul,
+ol,
+li,
+a {
+  @include p-style;
+}
+
+time {
+  font-family: $primaryFont;
+  color: $black;
+
+  @include p-style;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.white {
+  color: $white;
+}
+
+.small {
+  font-weight: 400;
+
+  @include fontSize(14);
+  @include lineHeight(21);
+}
